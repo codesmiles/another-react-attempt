@@ -1,7 +1,7 @@
 // import { StrictMode } from "react";
 import React from "react";
 import ReactDOM from "react-dom";
-
+import { Cars } from "./App.js";
 // import App from "./App";
 
 // const rootElement = document.getElementById("root");
@@ -56,7 +56,11 @@ const list = (
     </p>
     {text}
     <Car />
+    {/* PROPS SIMILAR TO ATTRIBUTES IN HTML ONLY WITH TOO MUCH CRUISE WITH {this.props.yourVibes} */}
+    <Cars brand="honder" />
   </div>
 );
-// ReactDOM.render(<Car/>, document.getElementById("root"));
+// an arror is coming from te garage class check the onport later
+// ReactDOM.render(<Garage/>,document.getElementById("root"))
+
 ReactDOM.render(list, document.getElementById("root"));
